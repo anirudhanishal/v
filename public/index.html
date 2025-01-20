@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Download Instagram Reels videos in HD quality with Save The Reel." />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Save The Reel - Instagram Reels Downloader" />
+    <meta property="og:description" content="Download Instagram Reels videos in HD quality quickly and easily." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-thumbnail.png" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Save The Reel - Instagram Reels Downloader" />
+    <meta name="twitter:description" content="Download Instagram Reels videos in HD quality with ease." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-thumbnail.png" />
+
+    <!-- Title -->
+    <title>Save The Reel - Instagram Reels Downloader</title>
+
+    <!-- Inline Preloader Style -->
+    <style>
+      #root {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f4f6;
+        font-family: Arial, sans-serif;
+      }
+
+      .preloader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        color: #555;
+      }
+
+      .spinner {
+        border: 4px solid #ddd;
+        border-top: 4px solid #4F8BF9;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin-bottom: 1rem;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="root">
+      <div class="preloader">
+        <div class="spinner"></div>
+        <p>Loading Save The Reel...</p>
+      </div>
+    </div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Scripts -->
+    <!-- React scripts will be injected during build -->
+  </body>
+</html>
