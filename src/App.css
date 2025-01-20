@@ -1,0 +1,48 @@
+/* App.css */
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #4b8dd7;
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.space-y-4 > div {
+  margin-bottom: 12px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
